@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RainView">
+        <attr name="rainNum" format="integer" />
+        <attr name="randColor" format="boolean" />
+        <attr name="size" format="integer" />
+        <attr name="rainColor" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxView">
+        <attr name="speed" format="dimension" />
+        <attr name="src" format="reference" />
+        <attr name="sceneLength" format="integer" />
+        <attr name="randomness" format="reference" />
+        <attr name="initialState" format="enum">
+            <enum name="started" value="0" />
+            <enum name="stopped" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="XYTranlateImageView">
+        <attr name="direction" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="AutoScrollBanner">
+        <attr name="points_visibility" format="boolean"/>
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr>
+        <attr name="points_container_background" format="reference|color"/>
+    </declare-styleable>
+</resources>
